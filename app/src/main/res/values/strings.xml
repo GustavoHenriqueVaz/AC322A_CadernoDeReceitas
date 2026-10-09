@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="PluralsCandidate,Typos">
+    <string name="app_name">Caderno de Receitas</string>
+
+    <!-- Geral -->
+    <string name="action_back">Voltar</string>
+    <string name="action_retry">Tentar novamente</string>
+    <string name="loading">Carregando…</string>
+    <string name="cancel">Cancelar</string>
+    <string name="undo">Desfazer</string>
+    <string name="offline_banner">Sem conexão. Mostrando dados salvos no aparelho.</string>
+    <string name="saved_state">Salva no caderno</string>
+    <string name="not_saved_state">Não salva</string>
+    <string name="cd_recipe_photo">Foto de %1$s</string>
+
+    <!-- Erros -->
+    <string name="error_title">Algo deu errado</string>
+    <string name="error_network">Não foi possível conectar à internet. Verifique sua conexão e tente novamente.</string>
+    <string name="error_server">O serviço de receitas está indisponível no momento. Tente novamente em instantes.</string>
+    <string name="error_invalid">Recebemos uma resposta inesperada do servidor.</string>
+    <string name="error_not_found">Receita não encontrada.</string>
+    <string name="error_unknown">Ocorreu um erro inesperado.</string>
+
+    <!-- Navegação -->
+    <string name="tab_explore">Explorar</string>
+    <string name="tab_notebook">Meu caderno</string>
+
+    <!-- Explorar -->
+    <string name="explore_title">Explorar receitas</string>
+    <string name="search_label">Buscar receita</string>
+    <string name="search_placeholder">Ex.: chicken, cake, pasta</string>
+    <string name="search_clear">Limpar busca</string>
+    <string name="featured_title">Receitas em destaque</string>
+    <string name="results_for">Resultados para “%1$s”</string>
+    <string name="category_results_title">Categoria: %1$s</string>
+    <plurals name="recipe_count">
+        <item quantity="one">%d receita</item>
+        <item quantity="other">%d receitas</item>
+    </plurals>
+    <string name="explore_empty_title">Nenhuma receita encontrada</string>
+    <string name="explore_empty_message">Tente outro nome. A busca usa nomes em inglês, como “chicken” ou “cake”.</string>
+    <string name="explore_empty_action">Ver receitas em destaque</string>
+
+    <!-- Receita do dia / lembrete -->
+    <string name="daily_title">Receita do dia</string>
+    <string name="daily_unavailable">Não foi possível carregar a sugestão de hoje.</string>
+    <string name="daily_reminder_label">Lembrete diário</string>
+    <string name="daily_reminder_desc">Receba uma sugestão todos os dias às 9h</string>
+    <string name="daily_reminder_on">Lembrete diário ativado</string>
+    <string name="daily_reminder_off">Lembrete diário desativado</string>
+    <string name="daily_permission_denied">Sem permissão para notificações. Ative nas configurações do Android para receber o lembrete.</string>
+
+    <!-- Detalhes -->
+    <string name="detail_title">Receita</string>
+    <string name="save_to_notebook">Salvar no caderno</string>
+    <string name="remove_from_notebook">Remover do caderno</string>
+    <string name="recipe_saved">Receita salva no caderno</string>
+    <string name="recipe_removed">Receita removida do caderno</string>
+    <string name="save_failed">Não foi possível salvar. Tente novamente.</string>
+    <string name="my_note">Minha anotação</string>
+    <string name="my_note_empty">Você ainda não anotou nada. Registre sua nota, o tempo que levou e suas observações.</string>
+    <string name="add_note">Anotar</string>
+    <string name="edit_note">Editar anotação</string>
+    <string name="share">Compartilhar</string>
+    <string name="share_chooser">Compartilhar receita</string>
+    <string name="share_text">Olha essa receita: %1$s\n%2$s</string>
+    <string name="watch_video">Ver vídeo</string>
+    <string name="ingredients_title">Ingredientes</string>
+    <string name="instructions_title">Modo de preparo</string>
+    <string name="no_ingredients">Ingredientes não informados.</string>
+    <string name="no_instructions">Esta receita não tem instruções cadastradas.</string>
+    <string name="show_more">Ler mais</string>
+    <string name="show_less">Mostrar menos</string>
+    <string name="prep_minutes_format">%1$d min de preparo</string>
+
+    <!-- Caderno -->
+    <string name="notebook_title">Meu caderno</string>
+    <string name="filter_all">Todas</string>
+    <string name="filter_noted">Com anotação</string>
+    <string name="filter_top">4 estrelas ou mais</string>
+    <string name="notebook_empty_title">Seu caderno está vazio</string>
+    <string name="notebook_empty_message">Salve receitas na aba Explorar para encontrá-las aqui, mesmo sem internet.</string>
+    <string name="notebook_empty_action">Explorar receitas</string>
+    <string name="notebook_filtered_empty_title">Nada neste filtro</string>
+    <string name="notebook_filtered_empty_message">Nenhuma receita salva corresponde ao filtro escolhido.</string>
+    <string name="no_note_yet">Toque para ver e adicionar sua anotação</string>
+    <string name="delete_cd">Remover %1$s do caderno</string>
+    <string name="delete_confirm_title">Remover do caderno?</string>
+    <string name="delete_confirm_message">“%1$s” e a sua anotação serão removidas do caderno.</string>
+    <string name="confirm_remove">Remover</string>
+
+    <!-- Formulário de anotação -->
+    <string name="edit_note_title">Minha anotação</string>
+    <string name="rating_label">Sua nota</string>
+    <string name="rating_error">Escolha de 1 a 5 estrelas.</string>
+    <string name="rating_value">Nota %1$d de 5</string>
+    <string name="rating_none">Sem nota</string>
+    <plurals name="stars">
+        <item quantity="one">%d estrela</item>
+        <item quantity="other">%d estrelas</item>
+    </plurals>
+    <string name="comment_label">Observações</string>
+    <string name="comment_supporting">Entre %1$d e %2$d caracteres</string>
+    <string name="comment_error_required">Escreva uma observação sobre a receita.</string>
+    <string name="comment_error_short">Escreva pelo menos %1$d caracteres (faltam %2$d).</string>
+    <string name="comment_error_long">O máximo é de %1$d caracteres.</string>
+    <string name="counter">%1$d/%2$d</string>
+    <string name="minutes_label">Tempo de preparo (minutos)</string>
+    <string name="minutes_supporting">Opcional. De %1$d a %2$d minutos.</string>
+    <string name="minutes_error">Informe um valor entre %1$d e %2$d minutos.</string>
+    <string name="minutes_error_number">Digite apenas números.</string>
+    <string name="photo_title">Foto do meu prato</string>
+    <string name="photo_add">Adicionar foto</string>
+    <string name="photo_change">Trocar foto</string>
+    <string name="photo_remove">Remover foto</string>
+    <string name="photo_cd">Foto do seu prato</string>
+    <string name="photo_error">Não foi possível usar essa imagem. Escolha outra.</string>
+    <string name="fix_errors">Corrija os campos destacados.</string>
+    <string name="save_note">Salvar anotação</string>
+    <string name="saving">Salvando…</string>
+    <string name="discard_title">Descartar alterações?</string>
+    <string name="discard_message">Você tem alterações que ainda não foram salvas.</string>
+    <string name="discard">Descartar</string>
+    <string name="keep_editing">Continuar editando</string>
+
+    <!-- Notificação -->
+    <string name="notif_channel_name">Receita do dia</string>
+    <string name="notif_channel_desc">Uma sugestão de receita por dia</string>
+    <string name="notif_title">Receita do dia: %1$s</string>
+    <string name="notif_text">Toque para ver os ingredientes e o modo de preparo.</string>
+    <string name="notif_action_save">Salvar no caderno</string>
+</resources>

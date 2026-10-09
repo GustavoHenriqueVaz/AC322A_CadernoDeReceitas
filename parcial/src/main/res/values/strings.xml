@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="PluralsCandidate">
+    <string name="app_name">Caderno (Parcial)</string>
+
+    <!-- Tela 1: lista -->
+    <string name="list_title">Caderno de Receitas</string>
+    <plurals name="recipe_count">
+        <item quantity="one">%d receita</item>
+        <item quantity="other">%d receitas</item>
+    </plurals>
+    <string name="filter_all">Todas</string>
+    <string name="filter_quick">Rápidas</string>
+    <string name="filter_favorites">Favoritas</string>
+    <string name="filters_group_description">Filtros da lista de receitas</string>
+    <string name="empty_title">Nada por aqui ainda</string>
+    <string name="empty_favorites">Toque na estrela de uma receita para favoritá-la.</string>
+    <string name="empty_quick">Nenhuma receita rápida encontrada.</string>
+    <string name="empty_all">Nenhuma receita disponível.</string>
+    <string name="favorite_add_cd">Favoritar %1$s</string>
+    <string name="favorite_remove_cd">Remover %1$s dos favoritos</string>
+    <string name="recipe_meta">%1$s · %2$d min</string>
+
+    <!-- Tela 2: detalhes -->
+    <string name="back">Voltar</string>
+    <string name="category_label">Categoria: %1$s</string>
+    <string name="chip_time">%1$d min</string>
+    <!-- Versao no singular/plural (1 porção, 2 porções): e a usada pela tela de detalhes -->
+    <plurals name="chip_servings_count">
+        <item quantity="one">%d porção</item>
+        <item quantity="other">%d porções</item>
+    </plurals>
+    <string name="tip_title">Dica do chef</string>
+    <string name="ingredients_title">Ingredientes</string>
+    <string name="ingredients_progress">%1$d de %2$d ingredientes separados</string>
+    <string name="ingredient_with_quantity">%1$s — %2$s</string>
+    <string name="steps_title">Modo de preparo</string>
+    <string name="step_number">%1$d</string>
+    <string name="favorite_button_add">Favoritar</string>
+    <string name="favorite_button_remove">Favorita</string>
+    <string name="video_button">Ver vídeo</string>
+    <string name="recipe_not_found">Receita não encontrada.</string>
+    <string name="video_unavailable">Nenhum aplicativo encontrado para abrir o vídeo.</string>
+    <string name="hero_cd">Ilustração da categoria %1$s</string>
+
+    <!-- Enums -->
+    <string name="category_main">Prato principal</string>
+    <string name="category_breakfast">Café da manhã</string>
+    <string name="category_salad">Salada</string>
+    <string name="category_dessert">Sobremesa</string>
+    <string name="category_soup">Sopa</string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Médio</string>
+    <string name="difficulty_hard">Difícil</string>
+</resources>

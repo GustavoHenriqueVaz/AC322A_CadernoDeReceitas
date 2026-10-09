@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Panela com tampa (desenho simples, dentro da area segura do icone adaptativo) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M32,52 L76,52 L76,66 Q76,78 64,78 L44,78 Q32,78 32,66 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M28,45 L80,45 L80,50 L28,50 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M50,37 L58,37 L58,45 L50,45 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M22,57 L32,57 L32,62 L22,62 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M76,57 L86,57 L86,62 L76,62 Z" />
+</vector>

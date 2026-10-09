@@ -1,0 +1,29 @@
+# Gradle / build
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos locais da maquina (caminho do SDK etc.) - NUNCA versionar
+local.properties
+
+# Segredos: chaves de API, senhas, keystores, .env
+.env
+.env.*
+*.env
+secrets.properties
+*.jks
+*.keystore
+google-services.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.kotlin/
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Capturas geradas pelos testes
+app/screenshots/
